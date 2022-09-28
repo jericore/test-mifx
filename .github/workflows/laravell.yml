@@ -37,5 +37,5 @@ jobs:
       env:
         DB_CONNECTION: sqlite
         DB_DATABASE: database/database.sqlite
-        MY_SECRET: ${{ secrets.MY_SECRET }}
+        MY_SECRET: ${{ secrets.MY_SECRET_KEY }}
       run: vendor/bin/phpunit
